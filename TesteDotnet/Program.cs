@@ -146,8 +146,7 @@ namespace TesteDotNet
             }
             else
             {
-                conta = conta = string.Join(operador, valores);
-                conta = $"{resultado.ToString()}";
+                conta = $"{string.Join(operador, valores)} = {resultado.ToString()}";
             }
 
             Console.WriteLine(conta);
